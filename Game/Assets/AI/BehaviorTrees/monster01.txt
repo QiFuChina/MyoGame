@@ -1,0 +1,3 @@
+<behaviortree name="monster01">
+  <sequencer name="root"></sequencer>
+</behaviortree>
