@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// using LockingPolicy = Thalmic.Myo.LockingPolicy;
+// using Pose = Thalmic.Myo.Pose;
+// using UnlockType = Thalmic.Myo.UnlockType;
+// using VibrationType = Thalmic.Myo.VibrationType;
+
 public class Player : MonoBehaviour {
     [Header("PLayer Attributes")]
     public int hp;
@@ -25,6 +30,8 @@ public class Player : MonoBehaviour {
 
     public GameObject exitButton;
 
+    // public GameObject myo = null;
+    // private Pose _lastPose = Pose.Unknown;
 	// Use this for initialization
 	void Start () {
 		m_Player = GameObject.Find("Player").GetComponent<Player>(); 
@@ -43,7 +50,7 @@ public class Player : MonoBehaviour {
         transform.position = Vector3.Lerp(transform.position, m_Player.transform.position + (rotatiom * offset),Time.deltaTime*damping);  
         
         transform.LookAt(m_Player.transform.position);
-
+        #region Keyboard Controller Script
 		       if (Input.GetKey (KeyCode.W)) {
                               gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
                    }
@@ -73,7 +80,28 @@ public class Player : MonoBehaviour {
             } else {
 			anim.SetBool ("Attack", false);
             AtkCollider.GetComponent<SphereCollider>().enabled = false;
-			
+        #endregion 	
+        
+        // ThalmicMyo thalmicMyo = myo.GetComponent<ThalmicMyo> ();
+        // if (thalmicMyo.pose != _lastPose) {
+        //     _lastPose = thalmicMyo.pose;
+        //     if (thalmicMyo.pose == Pose.Fist) {
+        //                 gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
+        //                 ExtendUnlockAndNotifyUserAction (thalmicMyo);
+        //            }
+        //     if (thalmicMyo.pose == Pose.WaveIn) {
+        //                 gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.05f, Space.Self);
+        //                 ExtendUnlockAndNotifyUserAction (thalmicMyo);
+        //            }
+        //     if (thalmicMyo.pose == Pose.WaveOut) {
+        //                 gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.05f, Space.Self);
+        //                 ExtendUnlockAndNotifyUserAction (thalmicMyo);
+        //            }
+        //     if (thalmicMyo.pose == Pose.DoubleTap) {
+        //                 gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.05f, Space.Self);
+        //                 ExtendUnlockAndNotifyUserAction (thalmicMyo);
+        //            }
+        // }
 		}
         hpBar.fillAmount=(float)hp/(float)hpMax;
     }
@@ -93,5 +121,16 @@ public class Player : MonoBehaviour {
         }
         hpBar.fillAmount=(float)hp/(float)hpMax;
     }
+
+    // void ExtendUnlockAndNotifyUserAction (ThalmicMyo myo)
+    // {
+    //     ThalmicHub hub = ThalmicHub.instance;
+
+    //     if (hub.lockingPolicy == LockingPolicy.Standard) {
+    //         myo.Unlock (UnlockType.Timed);
+    //     }
+
+    //     myo.NotifyUserAction ();
+    // }
     void Collider(Collider col){}
     }
