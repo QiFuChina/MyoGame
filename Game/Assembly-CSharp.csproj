@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\daa.cs" />
      <Compile Include="Assets\Fungus\Fungus\Scripts\Commands\Break.cs" />
      <Compile Include="Assets\Fungus\Fungus\Scripts\Commands\Call.cs" />
      <Compile Include="Assets\Fungus\Fungus\Scripts\Commands\CallMethod.cs" />
@@ -574,10 +573,8 @@
      <Compile Include="Assets\Fungus\Fungus\Thirdparty\Usfxr\Scripts\SfxrSynth.cs" />
      <Compile Include="Assets\Fungus\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
      <Compile Include="Assets\Fungus\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
-     <Compile Include="Assets\Jump.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
-     <Compile Include="Assets\Myo Samples\Scripts\JointOrientation.cs" />
-     <Compile Include="Assets\Myo Samples\Scripts\SampleSceneGUI.cs" />
+     <Compile Include="Assets\Myo\Scripts\Move.cs" />
      <Compile Include="Assets\Myo\Scripts\Myo.NET\EventTypes.cs" />
      <Compile Include="Assets\Myo\Scripts\Myo.NET\Hub.cs" />
      <Compile Include="Assets\Myo\Scripts\Myo.NET\libmyo.cs" />
