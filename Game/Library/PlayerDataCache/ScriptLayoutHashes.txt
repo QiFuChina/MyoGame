@@ -7,7 +7,6 @@ b497cd6cb84c2199c071bc81e08e7906 Assembly-CSharp.dll:Fungus.Stop
 6cf40793d8ae988b8911918666c66018 Assembly-UnityScript.dll:.InvPauseGame
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SfxrCacheSurrogate
 4d856d9b5bbca35c058a752c72efb65e Assembly-CSharp.dll:Fungus.PunchRotation
-3bf816ad30a54e11b37c999100e80a70 Assembly-CSharp.dll:.JointOrientation
 fd0f43a3b3758d704d6ddaee31a24a8b Assembly-CSharp.dll:Fungus.FlowchartEnabled
 e3ea99699c3e3c6d4457355e3ca5af67 Assembly-CSharp.dll:Fungus.RotateFrom
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Fungus.SaveManager
@@ -196,6 +195,7 @@ b497cd6cb84c2199c071bc81e08e7906 Assembly-CSharp.dll:Fungus.Quit
 959d0fff5e452c20f305e0bfe3cf69de Assembly-CSharp.dll:Fungus.Render
 21bc64dee3df50d34f08a94b5455dbd7 Assembly-CSharp.dll:Fungus.GetAxis
 6264351853e9c7233c9a622d961d5a4c Assembly-CSharp.dll:Fungus.SetAudioVolume
+8a3277fcf02cdba02375a98d7e79fe2a Assembly-CSharp.dll:.Move
 826f13cf6484008d643df5913f2b304c Assembly-CSharp.dll:Fungus.SetSaveProfile
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -372,7 +372,6 @@ b7da17eade3d6a9f11618724c862b0f0 Assembly-CSharp.dll:Fungus.GameStarted
 cd7c0a94a59c0b955a0be6d55005ada8 Assembly-CSharp.dll:Fungus.StringVariable
 a0dcb8b539796676b0a47cc6bb8cf1ed Assembly-CSharp.dll:Fungus.DragEntered
 4350689d7cb4e947f394c5eecf088b62 Assembly-CSharp.dll:Fungus.ObjectClicked
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.daa
 7a1b09e644e17a14cae96b83465279ee Assembly-CSharp.dll:.CameraFollow
 bf4fed47f53a3e99c0fa4302a5825d1a Assembly-CSharp.dll:Fungus.ColorVariable
 7f8debb5a744b28796e7e8be3f5db1a9 Assembly-CSharp.dll:Fungus.LuaCondition
@@ -397,7 +396,6 @@ e2edf8be30edf1b53356e4ac2139b562 Assembly-CSharp.dll:Fungus.Writer
 dec1506ad6bc962f0052a1813b7eac53 Assembly-UnityScript.dll:.Inventory
 144f1a11d3a0586c587d4b4ca0edd8da Assembly-CSharp.dll:Fungus.ControlAudio
 6884501df86b64ee537771b3172066db Assembly-CSharp.dll:Fungus.AnimatorState
-3bf816ad30a54e11b37c999100e80a70 Assembly-CSharp.dll:.SampleSceneGUI
 a421f21e520fcf48744c8ad1fb1bdb00 Assembly-CSharp.dll:Fungus.StopTweensLean
 9b10f1948e3e25a573202bd3ebf3b9f5 Assembly-CSharp.dll:Fungus.MinMax
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Door
