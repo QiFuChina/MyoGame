@@ -29,10 +29,18 @@ Tools
 > This application formal design be built by constructing game objects, and C# scripts are binding with them on the background.
 > Myo object bingding a "move.cs" file to transfer the command between armbands and program functions.
 ![alt text](https://user-images.githubusercontent.com/24989456/38522828-aea292be-3c41-11e8-8860-a96810d5e0e7.png)
+
+
 > Controller Scripts
 * A pices of code 
 ![alt text](https://user-images.githubusercontent.com/24989456/38523360-242a387e-3c43-11e8-8cda-cd8088f519a3.png)
 
+> Game Objects
+* Myo prefabs
+>> Finding the myo controller object and draging it into the game sence.
+![alt text](https://user-images.githubusercontent.com/24989456/39153714-d31c3a2a-4743-11e8-951c-6d457d38c777.png)
 
+>> Creating a C# script and binding relative attributes with game object "Player".
+![alt text](https://user-images.githubusercontent.com/24989456/39153742-f05b8d8e-4743-11e8-914d-c9f9e5868a0d.png)
 #### Conclusions & Recommendations
 > It is a basic role playing game with myo armbands device, it allows move actions temporarily. The advanced application should allows character attack command can be identify when using other gesture actions.  
