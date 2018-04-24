@@ -195,7 +195,7 @@ b497cd6cb84c2199c071bc81e08e7906 Assembly-CSharp.dll:Fungus.Quit
 959d0fff5e452c20f305e0bfe3cf69de Assembly-CSharp.dll:Fungus.Render
 21bc64dee3df50d34f08a94b5455dbd7 Assembly-CSharp.dll:Fungus.GetAxis
 6264351853e9c7233c9a622d961d5a4c Assembly-CSharp.dll:Fungus.SetAudioVolume
-8a3277fcf02cdba02375a98d7e79fe2a Assembly-CSharp.dll:.Move
+d5007bcf2313ac091dc7db957977a4b8 Assembly-CSharp.dll:.Move
 826f13cf6484008d643df5913f2b304c Assembly-CSharp.dll:Fungus.SetSaveProfile
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
