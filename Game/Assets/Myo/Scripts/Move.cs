@@ -54,21 +54,21 @@ public class Move : MonoBehaviour
                 isWalking = false;
             }
 			// Adds force when the user makes a wave left or presses the enter key
-            if (!isWalking && (Myo.pose == Thalmic.Myo.Pose.WaveOut || Input.GetKey(KeyCode.D)))
+            if (!isWalking && (Myo.pose == Thalmic.Myo.Pose.WaveIn || Input.GetKey(KeyCode.D)))
             {
                 Player.transform.Rotate(0f, -2f, 0f);
 				print("Left");
             }
-            else if (isWalking && (Myo.pose != Thalmic.Myo.Pose.WaveOut && !Input.GetKey(KeyCode.D)))
+            else if (isWalking && (Myo.pose != Thalmic.Myo.Pose.WaveIn && !Input.GetKey(KeyCode.D)))
             {
                 isWalking = false;
             }
-			if (!isWalking && (Myo.pose == Thalmic.Myo.Pose.WaveIn || Input.GetKey(KeyCode.A)))
+			if (!isWalking && (Myo.pose == Thalmic.Myo.Pose.WaveOut || Input.GetKey(KeyCode.A)))
             {
                 Player.transform.Rotate(0f, 2f, 0f);
 				print("Right");
             }
-            else if (isWalking && (Myo.pose != Thalmic.Myo.Pose.WaveIn && !Input.GetKey(KeyCode.A)))
+            else if (isWalking && (Myo.pose != Thalmic.Myo.Pose.WaveOut && !Input.GetKey(KeyCode.A)))
             {
                 isWalking = false;
             }

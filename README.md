@@ -13,7 +13,7 @@ Tools
 * Download and install [Myo Connect](https://www.myo.com/start)
 * [Set myo under unity 3D](http://developerblog.myo.com/setting-myo-package-unity/)
 
-> Video Link:[Here](https://youtu.be/VdlDPEeNpeQ)
+> Video Link:[Here](https://youtu.be/JNbz1E8cD7o)
 ### Information
 #### Purpose of the application and identify hardware
 > This a single 3D computer game that can use Myo armbands to control character moves and keyboard to attack.
