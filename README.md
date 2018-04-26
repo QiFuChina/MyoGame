@@ -29,7 +29,7 @@ Tools
 #### Architecture
 > This application formal design be built by constructing game objects, and C# scripts are binding with them on the background.
 > Myo object bingding a "move.cs" file to transfer the command between armbands and program functions.
-![alt text](https://user-images.githubusercontent.com/24989456/38522828-aea292be-3c41-11e8-8860-a96810d5e0e7.png)
+![alt text](https://user-images.githubusercontent.com/24989456/39327714-b327e742-4990-11e8-890f-a43e48939acb.png)
 
 > Game Objects
 * Myo prefabs
