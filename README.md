@@ -45,4 +45,4 @@ Tools
 
 
 #### Conclusions & Recommendations
-> It is a basic role playing game with myo armbands device, it allows move actions temporarily. The advanced application should allows character attack command can be identify when using other gesture actions.  
+> It is a basic role playing game with myo armbands device, it allows move and attack but it not sensitive enough to resopnse commands and update the value. 
