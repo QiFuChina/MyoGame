@@ -40,7 +40,7 @@ Tools
 ![alt text](https://user-images.githubusercontent.com/24989456/39153742-f05b8d8e-4743-11e8-914d-c9f9e5868a0d.png)
 
 > Controller Scripts
-* A pices of code 
+* A part of code 
 ![alt text](https://user-images.githubusercontent.com/24989456/38523360-242a387e-3c43-11e8-8cda-cd8088f519a3.png)
 
 
