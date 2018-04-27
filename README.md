@@ -19,11 +19,11 @@ Tools
 > This a single 3D computer game that can use Myo armbands to control character moves and keyboard to attack.
 > Users find the MyoGame.exe and click it to run.
 > Identify way
-* Go forward -> fist
-* Turn left -> wave in
-* Turn right -> wave out
-* Go back -> spare fingers
-* Attack -> double tap
+* Go forward -> fist && W
+* Turn left -> wave in && A
+* Turn right -> wave out && D
+* Go back -> spare fingers && S
+* Attack -> double tap && J
 
 
 #### Architecture
